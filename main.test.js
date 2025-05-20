@@ -2,11 +2,85 @@
  * YOUR CODE GOES HERE THIS TIME! *
  **********************************/
 
+let a = 47;
+let b = 7;
+let c = 0;
 
 
+let name = "Towanna";
+let lastName = "Hickey";
+let trafficLight = 'red';
 
 
+function addition () {
+  c = a + b;
+}
 
+addition();
+//console.log("The value of c  after addition is: "+ c);
+
+
+function subtraction() {
+
+  c = a - b;
+}
+
+subtraction();
+//console.log( "The value of c after subtraction is: "+c);
+
+
+function multiplication() {
+  c = a * b;
+}
+ multiplication();
+
+ //console.log("The value of c after multiplication is: "+ c);
+
+ 
+
+ function division() {
+  c = a / b;
+ }
+ division();
+ //console.log("The value of c after division  is: "+ c);
+
+
+ function incrementA() {
+   a = a + 1;
+ }
+
+ incrementA();
+
+ //console.log("The new value of a  is: " + a);
+
+
+ 
+
+  function decrementB() {
+    b = b - 1;
+  }
+
+  decrementB();
+  //console.log("The new value of b  after decrement is: "+ b);
+
+  
+
+
+function fullName() {
+  name = name + " " + lastName;
+ // console.log("Full Name:" + name);
+}
+  
+fullName();
+  
+
+function lightChange() {
+  trafficLight = 'green';
+
+}
+   lightChange();
+     
+   //console.log("The traffic light is now: " + trafficLight);
 /*********************************************************************************************************************
 
  * CODE BELOW HERE IS FOR INTERNAL USE ONLY! IT ENSURES THAT THE TESTING *
